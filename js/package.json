@@ -1,0 +1,18 @@
+{
+  "author": "Dennis Johnson <dennis.johnson@colorado.edu>",
+  "devDependencies": {
+    "mocha": "*",
+    "should": "~2.1.0",
+    "chai": "*", 
+    "jshint": "*",
+    "sinon": "*"
+  },
+  "main": "index",
+  "repository": {
+    "url": "https://github.com/songawee/code-problems.git",
+    "type": "git"
+  },
+  "scripts": {
+    "test": "make test"
+  }
+}

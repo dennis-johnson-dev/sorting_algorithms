@@ -1,8 +1,7 @@
 'use strict'
+// selection sort
 
-var array = [9, 8, 7, 6, 5, 4, 3, 2, 1];
-
-function sort(array) {
+module.exports = function (array, compare) {
   var min = 0;
   var swap = 0;
   for (var i = 0; i < array.length; i++) {
@@ -18,7 +17,5 @@ function sort(array) {
     array[i] = array[min];
     array[min] = swap;
   }
-}
-
-sort(array);
-console.log(array);
+  return array;
+};
